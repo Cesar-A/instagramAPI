@@ -12,6 +12,8 @@ define('clientSecret', 'a5486a1d8f4a42c0a4988e57fd7fff66');
 define('redirectURI', 'http://localhost/cesarapi/index.php');
 define('ImageDirectory', 'pics/');
 
+//if isset(($_))
+
 ?>
 
 <!DOCTYPE html>
