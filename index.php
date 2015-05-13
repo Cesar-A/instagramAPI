@@ -12,7 +12,16 @@ define('clientSecret', 'a5486a1d8f4a42c0a4988e57fd7fff66');
 define('redirectURI', 'http://localhost/cesarapi/index.php');
 define('ImageDirectory', 'pics/');
 
-//if isset(($_))
+if isset(($_Get['code'])){
+	$code =(($_Get['code']));
+	$url ='https://api.instagram.com/oauth/access_token';
+	$access_token_settings = array('client_id' =>clientID, 
+							'client_secret' =>client_secret,
+							'grant_type' => 'authorization_code'
+							'redirect_uri' =>redirectURI,
+							'code' => $code
+							);
+}
 
 ?>
 
