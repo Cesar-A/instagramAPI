@@ -103,13 +103,8 @@ else {
  	<link rel="author" href="humans.txt">
  </head>
  <body>
- <style>
-body {
-    background-color: teal;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-</style>
+ 
+
  <!-- Creating a login for people to go and give approval for ourr web app to access their Instagram Account 
  After getting approval we are now going to have the information so that we can play with it.
  -->
